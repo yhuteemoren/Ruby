@@ -52,11 +52,38 @@ nav {
 
 .nav-links li {
   display: inline-block;
-  margin: 25px;
+  margin: 20px;
 }
 
 .nav-links li a {
   text-decoration: none;
   color: black;
   padding: 10px 0;
+}
+
+.button {
+  /* margin-left: 1125px; */
+  width: 112px;
+  height: 30px;
+  padding-top: 5px;
+
+  background-color: #7f1010;
+  border: solid;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+}
+.inactive {
+  /* margin-left: 1125px; */
+  width: 112px;
+  border: solid 1px;
+  color: black;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.tagline {
+  /* vertical-align: middle; */
+  display: flex;
+  align-items: center;
 }
