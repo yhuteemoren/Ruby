@@ -40,6 +40,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* position: relative; */
 }
 
 .logo {
@@ -47,7 +48,7 @@ nav {
 }
 
 .nav-links {
-  padding: 28px 00;
+  padding: 28px 0;
 }
 
 .nav-links li {
@@ -61,29 +62,38 @@ nav {
   padding: 10px 0;
 }
 
-.button {
+.block {
   /* margin-left: 1125px; */
   width: 112px;
-  height: 30px;
-  padding-top: 5px;
-
+  height: 40px;
+  /* padding-top: 5px; */
   background-color: #7f1010;
-  border: solid;
   color: white;
   border-radius: 12px;
   text-align: center;
 }
-.inactive {
-  /* margin-left: 1125px; */
+.sign {
   width: 112px;
-  border: solid 1px;
+  border: solid 2px;
   color: black;
   border-radius: 12px;
   text-align: center;
+  height: 40px;
 }
 
 .tagline {
-  /* vertical-align: middle; */
+  vertical-align: middle;
   display: flex;
   align-items: center;
+}
+
+.landingimg {
+  margin-left: 50%;
+  margin-top: 100px;
+}
+.p1l1 {
+  text-align: left;
+}
+.content {
+  clear: none;
 }
