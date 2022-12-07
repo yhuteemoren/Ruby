@@ -1,46 +1,27 @@
 body {
   background-color: #ffffff;
-  margin: 50px 100px 25px 100px;
+  margin: 50px 100px 50px 100px;
   align-content: center;
-}
-
-/* .header Ruby {
-  color: #7f1010;
-}
-.Savings,
-.Loans,
-.Business,
-.Rent,
-.FAQs,
-.About,
-.Us {
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  list-style-type: none;
-}
-.p1l1 #h3 {
-  color: #7f1010;
-} */
-
-/* * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
-} */
+}
+
 .header {
   height: 100px;
-  /* width: 100%; */
   padding: 0 8%;
   background-color: white;
   position: relative;
+  font-family: Manrope sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* position: relative; */
 }
 
 .logo {
@@ -54,46 +35,134 @@ nav {
 .nav-links li {
   display: inline-block;
   margin: 20px;
+  font-family: Manrope sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .nav-links li a {
   text-decoration: none;
-  color: black;
+  color: #7f1010;
   padding: 10px 0;
 }
 
 .block {
-  /* margin-left: 1125px; */
-  width: 112px;
-  height: 40px;
-  /* padding-top: 5px; */
+  height: 68px;
+  width: 192px;
+  left: 117px;
+  top: 646px;
+  border-radius: 24px;
+  padding: 16px 48px 16px 48px;
   background-color: #7f1010;
   color: white;
   border-radius: 12px;
   text-align: center;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
 }
 .sign {
-  width: 112px;
-  border: solid 2px;
-  color: black;
+  height: 68px;
+  width: 192px;
+  left: 117px;
+  top: 646px;
+  padding: 16px 48px 16px 48px;
   border-radius: 12px;
   text-align: center;
-  height: 40px;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  border: solid 2px;
+  color: #7f1010;
 }
 
 .tagline {
   vertical-align: middle;
   display: flex;
+  color: #7f1010;
   align-items: center;
 }
 
 .landingimg {
-  margin-left: 50%;
-  margin-top: 100px;
+  margin-right: 5%;
+  margin: bottom 50px;
 }
 .p1l1 {
+  padding: 5vw;
+  margin-left: 50px;
+}
+.p1l1 h3 {
+  text-align: left;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7f1010;
+}
+.p1l1 p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #bf1818;
+  font-family: Inter;
   text-align: left;
 }
+
+.list {
+  color: #7f1010;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#block {
+  width: 112px;
+  height: 40px;
+  background-color: #7f1010;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+  height: 68px;
+  width: 192px;
+  left: 117px;
+  top: 646px;
+  padding: 16px 48px 16px 48px;
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.hero {
+  align-content: center;
+  float: right;
+}
 .content {
-  clear: none;
+  float: inline-start;
+  /* width: 33.33%; */
+  padding: 15px;
+}
+
+.l1img {
+  /* position: absolute; */
+  width: 266px;
+  height: 189px;
+  left: 202px;
+  padding: 5vw;
+  top: 1500px;
 }
