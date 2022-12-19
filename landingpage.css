@@ -3,6 +3,7 @@ body {
   margin: 50px 100px 50px 100px;
   align-content: center;
   box-sizing: border-box;
+  line-break: auto;
 }
 
 .header {
@@ -15,7 +16,7 @@ body {
   font-weight: 600;
   line-height: 24px;
   letter-spacing: 0em;
-  text-align: left;
+  /* text-align: left; */
 }
 
 nav {
@@ -45,7 +46,7 @@ nav {
 
 .nav-links li a {
   text-decoration: none;
-  color: #7f1010;
+  color: #bf1818;
   padding: 10px 0;
 }
 
@@ -66,6 +67,7 @@ nav {
   line-height: 24px;
   letter-spacing: 0em;
 }
+
 .sign {
   height: 68px;
   width: 192px;
@@ -94,29 +96,35 @@ nav {
   margin-right: 5%;
   margin: bottom 50px;
 }
+
 .p1l1 {
   padding: 5vw;
   margin-left: 50px;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
 }
+
 .p1l1 h3 {
-  text-align: left;
   font-family: Inter;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 84px;
+  font-size: 40px;
+  font-weight: 700px;
+  /* line-height: 84px; */
   letter-spacing: 0em;
   text-align: left;
   color: #7f1010;
 }
+
 .p1l1 p {
   font-family: Inter;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  /* line-height: 24px; */
   letter-spacing: 0em;
   color: #bf1818;
-  font-family: Inter;
   text-align: left;
+  margin-top: -30px;
+  line-break: auto;
 }
 
 .list {
@@ -124,10 +132,10 @@ nav {
   font-family: Inter;
   font-size: 24px;
   font-weight: 700;
-  line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
 }
+
 #block {
   width: 112px;
   height: 40px;
@@ -152,17 +160,97 @@ nav {
   align-content: center;
   float: right;
 }
+
 .content {
-  float: inline-start;
+  /* float: inline-start; */
   /* width: 33.33%; */
   padding: 15px;
 }
 
 .l1img {
-  /* position: absolute; */
-  width: 266px;
-  height: 189px;
-  left: 202px;
-  padding: 5vw;
-  top: 1500px;
+  align-self: center;
+  /* width: 306px; */
+  /* height: 189px; */
+  left: 1102px;
+  top: 1600px;
+  margin-left: 30px;
+}
+
+.features {
+  display: flex;
+  margin-right: 0%;
+}
+.features-containter {
+  width: 50%;
+  /* margin-right: 50% */
+}
+
+.section-one {
+  margin-right: 5px 0;
+  margin-left: 14%;
+  margin-bottom: 25%;
+}
+.section-one h3 {
+  font-family: inter;
+  font-weight: 700;
+  color: #7f1010;
+  font-size: 40px;
+  line-height: 50px;
+  width: 456px;
+}
+.section-one p {
+  height: 70px;
+  top: 1827px;
+  left: 118px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #bf1818;
+}
+.how-ruby {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.rubytext h4 {
+  margin-top: 0%;
+  height: 68px;
+  left: 497px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  text-align: center;
+  color: #7f1010;
+}
+.rubytext p {
+  height: 101px;
+  left: 197px;
+  top: 1927px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  align-content: center;
+  display: flex;
+  color: #bf1818;
+  margin-bottom: 50px;
+}
+
+.benefits li {
+  left: 157px;
+  top: 927px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  align-content: center;
+  color: #bf1818;
+  font-size: 24px;
+  letter-spacing: 0em;
+  margin-bottom: 5px;
 }
