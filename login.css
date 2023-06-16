@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  display: flex;
+}
+
+.form-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.form-img,
+.form-section {
+  height: 100%;
+}
+
+.form-img {
+  background-image: url("/cite-mages/piggy.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center left;
+  width: 45%;
+}
+
+.form-img img {
+  width: fit-content;
+  height: 100%;
+}
+
+.form-section {
+  width: 55%;
+  padding: 80px;
+  padding-top: 24px;
+  padding-right: 50px;
+}
+
+.tagline {
+  align-items: center;
+  display: flex;
+  color: #7f1010;
+  justify-content: center;
+  margin-bottom: 92px;
+}
+
+.heading {
+  padding-top: 10%;
+}
+
+.form-section .heading h2 {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #2e2e2e;
+  margin-bottom: 4px;
+}
+
+.form-section .heading p {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2e2e2e;
+  margin: 0px;
+}
+
+.form-section .heading p a {
+  color: #7f1010;
+}
+
+.form-section form {
+  margin-top: 24px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field label {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2e2e;
+  margin-top: 16px;
+}
+
+.form-field input {
+  align-items: center;
+  padding: 8px 16px;
+  border: 2px solid rgba(31, 31, 31, 0.6);
+  border-radius: 8px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.ornament {
+  display: flex;
+  align-self: center;
+  width: 40px;
+  height: 72px;
+  margin-right: 22px;
+  margin-bottom: 80px;
+}
+
+.form-section .second-option p {
+  display: flex;
+  margin-top: 32px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(31, 31, 31, 0.6);
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second-option p:before {
+  content: "";
+  display: block;
+  border: 1px solid rgba(31, 31, 31, 0.6);
+  width: 100%;
+  height: 0px;
+  background: rgba(31, 31, 31, 0.6);
+  top: 12px;
+  margin-right: 1%;
+}
+
+.second-option p:after {
+  content: "";
+  display: block;
+  border: 1px solid rgba(31, 31, 31, 0.6);
+  width: 100%;
+  background: rgba(31, 31, 31, 0.6);
+  top: 12px;
+  margin-left: 1%;
+}
+
+.form-section .other-options {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+}
+
+.other-options {
+  display: flex;
+  flex-direction: row;
+  margin-top: 42px;
+}
+
+.other-options .google {
+  border: 1px solid #400808;
+  width: 100%;
+  padding: 14px;
+  display: flex;
+  margin-right: 1%;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.other-options .facebook {
+  border: 1px solid #400808;
+  margin-left: 1%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  padding: 14px;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.google img {
+  height: 22px;
+  width: 22x;
+  left: 2px;
+  top: 1px;
+  color: #400808;
+  margin-right: 14px;
+}
+
+.facebook img {
+  height: 22px;
+  width: 22x;
+  left: 2px;
+  top: 1px;
+  color: #400808;
+  margin-right: 14px;
+}
+
+.other-options p {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2e2e;
+}
+
+.terms {
+  margin-top: 32px;
+  align-items: center;
+  display: flex;
+}
+
+.terms input {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #2e2e2e;
+  border-radius: 2px;
+  margin-right: 12px;
+}
+
+.terms p {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2e2e;
+}
+
+.sign-in {
+  background: #400808;
+  box-shadow: 0px 4px 8px rgba(41, 29, 74, 0.15);
+  border-radius: 4px;
+  height: 55px;
+  margin-top: 32px;
+}
+
+.sign-in p {
+  /* display: flex; */
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+}

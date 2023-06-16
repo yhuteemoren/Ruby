@@ -1,0 +1,349 @@
+body {
+  background-color: #ffffff;
+  margin: 50px 100px 50px 100px;
+  align-content: center;
+  box-sizing: border-box;
+  line-break: auto;
+}
+
+.header {
+  height: 100px;
+  padding: 0 8%;
+  background-color: white;
+  position: relative;
+  font-family: "Manrope" sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  /* text-align: left; */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 60px;
+}
+
+.nav-links {
+  padding: 28px 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #bf1818;
+  font-family: "Manrope" sans-serif;
+  font-style: normal;
+  padding: 10px 0;
+}
+
+.block {
+  height: 68px;
+  width: 192px;
+  left: 117px;
+  top: 646px;
+  padding: 16px 48px 16px 48px;
+  background-color: #7f1010;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+  font-family: "Manrope"- sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  /* text-decoration: none; */
+}
+
+.sign {
+  height: 68px;
+  width: 192px;
+  left: 117px;
+  top: 646px;
+  padding: 16px 48px 16px 48px;
+  border-radius: 12px;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  border: solid 2px;
+  color: #7f1010;
+}
+
+.tagline {
+  vertical-align: middle;
+  display: flex;
+  color: #7f1010;
+  font-weight: 500;
+  align-items: center;
+  font-style: normal;
+  font-family: "Manrope"- sans-serif;
+}
+
+.landingimg {
+  margin-right: 5%;
+  margin: bottom 50px;
+}
+
+.p1l1 {
+  padding: 5vw;
+  margin-left: 50px;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.p1l1 h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 700px;
+  /* line-height: 84px; */
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7f1010;
+}
+
+.p1l1 p {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  /* line-height: 24px; */
+  letter-spacing: 0em;
+  color: #bf1818;
+  text-align: left;
+  margin-top: -30px;
+  line-break: auto;
+}
+
+.list {
+  color: #7f1010;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#block {
+  width: 112px;
+  height: 40px;
+  background-color: #7f1010;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+  height: 68px;
+  width: 192px;
+  left: 117px;
+  top: 646px;
+  padding: 16px 48px 16px 48px;
+  font-family: "manrope"- sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.hero {
+  align-content: center;
+  float: right;
+}
+
+.content {
+  /* float: inline-start; */
+  /* width: 33.33%; */
+  padding: 15px;
+}
+
+.l1img {
+  align-self: center;
+  /* width: 306px; */
+  /* height: 189px; */
+  left: 1102px;
+  top: 1600px;
+  margin-left: 30px;
+}
+
+.features {
+  display: flex;
+  padding-top: 2%;
+  justify-content: space-between;
+  align-content: flex-end;
+  margin-right: 5%;
+}
+.features-containter {
+  width: 30%;
+  margin-right: 20%;
+  margin-left: 0%;
+}
+
+.section-one {
+  margin-right: 5px 0;
+  margin-left: 14%;
+  margin-bottom: 25%;
+}
+.section-one h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #7f1010;
+  font-size: 40px;
+  line-height: 50px;
+  width: 497px;
+  display: flex;
+}
+.section-one p {
+  height: 70px;
+  top: 1827px;
+  left: 118px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #bf1818;
+  padding: 0px;
+}
+
+.features-containter-2 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2%;
+}
+
+.section-two {
+  margin-right: 10px 0;
+  /* margin-left: 5%; */
+  margin-bottom: 25%;
+}
+.section-two h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #7f1010;
+  font-size: 40px;
+  line-height: 50px;
+  width: 456px;
+}
+.section-two p {
+  font-family: "Manrope", sans-serif;
+  height: 70px;
+  top: 1827px;
+  width: 475px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #bf1818;
+  display: flex;
+  text-align: auto;
+}
+.how-ruby {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.rubytext h4 {
+  margin-bottom: 1%;
+  height: 68px;
+  left: 497px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  text-align: center;
+  color: #7f1010;
+}
+.rubytext p {
+  height: 101px;
+  left: 197px;
+  top: 2927px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  align-content: center;
+  display: flex;
+  color: #bf1818;
+  margin-bottom: 50px;
+}
+
+.benefits li {
+  left: 157px;
+  top: 927px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  align-content: center;
+  color: #bf1818;
+  font-size: 24px;
+  letter-spacing: 0em;
+  margin-bottom: 5px;
+}
+.currencylisting {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.currencylisting h4 {
+  width: 566px;
+  height: 68px;
+  left: 437px;
+  top: 2319px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  color: #7f1010;
+  align-content: center;
+  letter-spacing: 0em;
+}
+/* .crypto {
+  display: flex;
+  align-content: flex-end;
+  justify-content: flex-start;
+}
+.crypto a {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 15px 30px 0;
+  width: 139px;
+  height: 36px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  color: goldenrod;
+  position: ab
+  ;
+} */
